@@ -4,7 +4,11 @@ win = tk.Tk()
 win.title("Simple Pyhton GUI window")
 
 # disable resizing the gui
-win.resizable(0, 0)
+# win.resizable(0, 0)
 
+# adding label
+from tkinter import ttk
+
+ttk.label(win, text="Aye Hello").grid(column=0, row=0)
 
 win.mainloop()
