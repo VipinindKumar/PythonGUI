@@ -14,12 +14,12 @@ lable1.grid(column=0, row=0)
 
 # button click event callback fun
 def click():
-	action.configure(text="## Clicked ##")
+	button1.configure(text="## Clicked ##")
 	lable1.configure(foreground="red")
 
 # Creating buttons
-action = ttk.Button(win, text="Click here", command=click)
-action.grid(column=1, row=0)
+button1 = ttk.Button(win, text="Click here", command=click)
+button1.grid(column=1, row=0)
 
 
 
