@@ -9,6 +9,6 @@ win.title("Simple Pyhton GUI window")
 # adding label
 from tkinter import ttk
 
-ttk.label(win, text="Aye Hello").grid(column=0, row=0)
+ttk.Label(win, text="Aye Hello").grid(column=0, row=0)
 
 win.mainloop()
