@@ -1,2 +1,3 @@
 # PythonGUI
-Python GUI practice
+Python GUI practice before creating the appliction
+
