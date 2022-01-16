@@ -1,5 +1,5 @@
 import tkinter as tk
 
-win = tk.TK()
+win = tk.Tk()
 win.title("Simple Pyhton GUI window")
 win.mainloop()
